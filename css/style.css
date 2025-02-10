@@ -3,6 +3,16 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+}
+
+body{
+    font-family: "Montserrat", serif;
+    font-optical-sizing: auto;
+}
+
+ul{
+    list-style: none;
 }
 
 /* HEADER STILE */
@@ -24,13 +34,58 @@ main{
     
 }
 
+/* SECTION 1 YOUTUBE INFO */
+
 .container{
     width: 100%;
     max-width: 1440px;
     padding: 0px 25px;
 }
 
+.title-description h2{
+    color: #4e3969;
+    padding-bottom: 35px;
+}
+
+h2 span {
+    display: none;
+}
+
+.title-description h6{
+    color: #999999;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
 img{
     width: 100%;
     display: block;
 }
+
+.info{
+    background-color: white;
+    padding-top: 45px;
+    padding-left: 10px;
+    padding-bottom: 60px;
+}
+
+.info h3{
+    padding-bottom: 50px;
+}
+
+.info li{
+    line-height: 30px;
+}
+
+
+
+
+
+/* attaccarla sulla img per attaccare la foto sulla sinistra
+e il testo gli sta intorno
+
+float: left */
+
+
+
+
