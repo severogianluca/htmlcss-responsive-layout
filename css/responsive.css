@@ -3,5 +3,10 @@
         text-align: left;
         margin-left: 30px;
     }
+
+    h2 span {
+        display: inline;
+    }
+    
 }
 
