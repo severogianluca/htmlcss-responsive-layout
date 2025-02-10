@@ -7,6 +7,61 @@
     h2 span {
         display: inline;
     }
+
+    /* STILE PRIMA SECTION */
+
+    .title-description{
+        padding-left: 60px;
+       }
+
+    .container{
+      padding: 0 60px;
+    }
+
+    .info{
+        padding-left: 40px;
+    }
+
+    .info li{
+        width: calc(100% / 3 );
+        margin-bottom: 45px;
+    }
+
+    .info ul{
+        display: flex;
+        flex-wrap: wrap;
+    }
     
+}
+
+
+@media screen and (min-width: 992px) {
+
+    .container{
+        display: flex;
+        margin: 0 auto;
+    }
+
+    .video img{
+        height: 100%;
+    }
+
+    .video{
+        width: 70%;
+    }
+
+    .info{
+        width: 30%;
+    }
+
+    .info ul{
+      display: block;
+    }
+
+    .info li {
+        width: 100%; 
+        margin-bottom: 30px; 
+    }
+
 }
 
