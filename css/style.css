@@ -1,0 +1,36 @@
+/* CLASSI COMUNI */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* HEADER STILE */
+.title{
+    font-family: "Nerko One", serif;
+    font-weight: 400;
+    text-align: center;
+    color: #ff9614;
+    font-size: 3em;
+    text-shadow: 2px 0px 0.5px rgba(0, 0, 0, 0.5);
+    margin-top: 25px;
+    margin-bottom: 25px;
+}
+
+
+/* MAIN STILE */
+main{
+    background-color: #f6f5f3;
+    
+}
+
+.container{
+    width: 100%;
+    max-width: 1440px;
+    padding: 0px 25px;
+}
+
+img{
+    width: 100%;
+    display: block;
+}
