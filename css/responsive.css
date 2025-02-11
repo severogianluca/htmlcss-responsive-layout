@@ -15,7 +15,8 @@
        }
 
     .container{
-      padding: 0 60px;
+      padding: 0 20px;
+      
     }
 
     .info{
@@ -31,6 +32,15 @@
         display: flex;
         flex-wrap: wrap;
     }
+
+    /* icone stile */
+    
+
+    .icon div {
+        border-radius: 50px; 
+        padding: 10px 30px; 
+        width: auto; 
+    }
     
 }
 
@@ -40,6 +50,7 @@
     .container{
         display: flex;
         margin: 0 auto;
+        width: 100%;
     }
 
     .video img{
@@ -61,6 +72,12 @@
     .info li {
         width: 100%; 
         margin-bottom: 30px; 
+    }
+
+    /* icone stile */
+
+    i span {
+        display: inline;
     }
 
 }

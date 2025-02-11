@@ -35,11 +35,15 @@ main{
 }
 
 /* SECTION 1 YOUTUBE INFO */
-
+.section-1{
+    padding-left: 25px;
+}
 .container{
     width: 100%;
+    height: 100%;
     max-width: 1440px;
-    padding: 0px 25px;
+    
+
 }
 
 .title-description h2{
@@ -51,10 +55,12 @@ h2 span {
     display: none;
 }
 
+
 .title-description h6{
     color: #999999;
     padding-top: 30px;
     padding-bottom: 20px;
+
 }
 
 img{
@@ -76,6 +82,58 @@ img{
 .info li{
     line-height: 30px;
 }
+
+/* ICONE STILE */
+
+
+.icon {
+    display: flex;
+    justify-content: space-between;
+    padding-top: 40px;
+    width: 100%;
+}
+
+.icon div {
+    display: flex;
+    background-color: white;
+    border-radius: 50%;
+    padding: 10px;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.3);  
+}
+
+.icon i span {
+    font-size: 12px; 
+    color: black; 
+    
+    
+}
+
+i span {
+    display: none;
+}
+
+/* colore icone */
+.fb{
+    color: #1a77f3;
+}
+
+.tweet{
+    color: #009eff;
+}
+
+.insta{
+    color: #dc3d78;
+}
+
+.pint, .yt{
+    color: #e62222;
+}
+
+
+/* blocco il banner per richiamarlo sul tablet */
+
 
 
 
