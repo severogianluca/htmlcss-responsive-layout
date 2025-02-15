@@ -15,10 +15,15 @@ ul{
     list-style: none;
 }
 
+img{
+    width: 100%;
+    display: block;
+}
+
 /* HEADER STILE */
 .title{
     font-family: "Nerko One", serif;
-    font-weight: 400;
+    
     text-align: center;
     color: #ff9614;
     font-size: 3em;
@@ -35,14 +40,15 @@ main{
 }
 
 /* SECTION 1 YOUTUBE INFO */
-.section-1{
+.section{
     padding-left: 25px;
+    padding-bottom: 40px;
 }
 .container{
     width: 100%;
     height: 100%;
     max-width: 1440px;
-    
+    margin: 0 auto;
 
 }
 
@@ -133,10 +139,26 @@ i span {
 
 
 /* blocco il banner per richiamarlo sul tablet */
+.banner {
+    display: none; 
 
 
+}
 
+hr {
+    width: 100px;
+    border-color: #f7972e;
+    height: 3px;
+    margin-top: 25px;
+    margin-bottom: 25px;
 
+}
+
+/* STILE SECTION 2 */
+.tiramisu {
+    width: 275px;       /* L'immagine occuperà il 50% della larghezza del contenitore */
+    height: 150px;  
+}
 
 
 /* attaccarla sulla img per attaccare la foto sulla sinistra

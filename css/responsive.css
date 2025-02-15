@@ -9,11 +9,6 @@
     }
 
     /* STILE PRIMA SECTION */
-
-    .title-description{
-        padding-left: 60px;
-       }
-
     .container{
       padding: 0 20px;
       
@@ -40,6 +35,14 @@
         border-radius: 50px; 
         padding: 10px 30px; 
         width: auto; 
+    }
+
+    
+
+    .banner {
+        display: block; 
+        padding-top: 40px;
+        width: 100%;
     }
     
 }
