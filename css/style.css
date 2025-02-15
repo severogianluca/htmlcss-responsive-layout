@@ -180,7 +180,7 @@ footer{
 }
 
 .info-footer p{
-    font-size: 1rem;
+    font-size: 14px;
     text-align: center;
     color: white;
     margin-bottom: 20px;
@@ -206,6 +206,7 @@ footer{
 
 .link-info a {
     color: white;
+    font-size: 14px;
 }
 
 
