@@ -41,8 +41,7 @@ main{
 
 /* SECTION 1 YOUTUBE INFO */
 .section{
-    padding-left: 25px;
-    padding-bottom: 40px;
+    padding: 25px;
 }
 .container{
     width: 100%;
@@ -147,18 +146,69 @@ i span {
 
 hr {
     width: 100px;
-    border-color: #f7972e;
-    height: 3px;
-    margin-top: 25px;
-    margin-bottom: 25px;
-
+    border: 2px solid #f7972e;
+    margin: 20px 0px;
 }
 
 /* STILE SECTION 2 */
 .tiramisu {
-    width: 275px;       /* L'immagine occuperà il 50% della larghezza del contenitore */
-    height: 150px;  
+    width: 375px;       /* L'immagine occuperà il 50% della larghezza del contenitore */
+    height: 250px; 
+
+    margin: 0 auto;
 }
+
+.container p{
+    margin-top: 20px;
+    line-height: 2;
+}
+
+
+/* STILE FOOTER */
+footer{
+    background-color: #7c69a4;
+    height: 200px;
+    width: 100%;
+}
+
+
+.info-footer h5{
+    text-align: center;
+    color: white;
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+.info-footer p{
+    font-size: 1rem;
+    text-align: center;
+    color: white;
+    margin-bottom: 20px;
+
+
+}
+
+.link-info ul{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+}
+
+.boolando-info{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}   
+
+.link-info a {
+    color: white;
+}
+
+
 
 
 /* attaccarla sulla img per attaccare la foto sulla sinistra
